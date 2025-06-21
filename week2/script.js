@@ -775,11 +775,7 @@
 
 // <-------- Looping Through an Array ----------->
 
-// let vehicles= ["car","bike", "bus"];
-// for(let i = 0;i<vehicles.length;i++){
-//     console.log(vehicles[i]);
-    
-// }
-
-// <------------Functions Returing Sum---------->
-jl
+let vehicles= ["car","bike", "bus"];
+for(let i = 0;i<vehicles.length;i++){
+    console.log(vehicles[i]);
+}
