@@ -65,7 +65,7 @@
 // function two(a) {
 //     a = a +1;
 //     console.log('one' ,a);
-    
+     
 // }
 // one();
 // // --------------->closures<------------------------
@@ -725,3 +725,57 @@
 
 // const value = addArray([3, 5, 5]);
 // console.log(value);
+
+
+// <-------Variables & Data Types----------->
+
+// let name = "Amal";
+// let age = 25;
+// let isStudent = true;
+
+// console.log(name, age, isStudent)
+
+// <---------Basic operators---------->
+
+// let x = 10;
+// let y = 5;
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+
+// <--------Arrays + Methods------->
+
+// let fruits = ["apple", "banana", "mango"]
+// fruits.push("orange");
+// fruits.pop();
+// console.log(fruits);
+
+// <--------Functions------------>
+
+// function add(a,b) {
+//     return a+ b;
+
+// }
+// console.log(add(5,3));
+
+// <------------Loops----------->
+
+// for (let i =0; i<=20; i++){
+//     console.log(i);
+    
+// }
+
+// <-------------push() and pop()--------->
+
+// let vehicles = ["car", "bike", "bus"]
+// vehicles.push("train");
+// vehicles.pop();
+// console.log(vehicles);
+
+// <-------- Looping Through an Array ----------->
+
+let vehicles= ["car","bike", "bus"];
+for(let i = 0;i<vehicles.length;i++){
+    console.log(vehicles[i]);
+}
