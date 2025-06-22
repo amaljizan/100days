@@ -766,16 +766,16 @@
     
 // }
 
-// <-------------push() and pop()--------->
-
-// let vehicles = ["car", "bike", "bus"]
-// vehicles.push("train");
-// vehicles.pop();
-// console.log(vehicles);
 
 // <-------- Looping Through an Array ----------->
 
-let vehicles= ["car","bike", "bus"];
-for(let i = 0;i<vehicles.length;i++){
-    console.log(vehicles[i]);
-}
+// let vehicles= ["car","bike", "bus"];
+// for(let i = 0;i<vehicles.length;i++){
+//     console.log(vehicles[i]);
+// }
+// <-------------push() and pop()--------->
+
+let vehicles = ["car", "bike", "bus"]
+vehicles.push("train");
+vehicles.pop();
+console.log(vehicles);
