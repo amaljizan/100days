@@ -775,7 +775,163 @@
 // }
 // <-------------push() and pop()--------->
 
-let vehicles = ["car", "bike", "bus"]
-vehicles.push("train");
-vehicles.pop();
-console.log(vehicles);
+// let vehicles = ["car", "bike", "bus"]
+// vehicles.push("train");
+// vehicles.pop();
+// console.log(vehicles);
+
+// <----------Function Returning Sum------------>
+
+// function add(a, b){
+//     return a + b ;
+// }
+// console.log(add(5, 3));
+
+// <------using if-else Condition------>
+
+// let age = 18;
+
+// if (age >= 18) {
+//   console.log("You are an adult");
+// } else {
+//   console.log("You are a minor");
+// }
+
+// <------Check if a Number is Even or Odd using if-else---->
+
+// let num = 9;
+// if(num % 2 === 0){
+//     console.log("Even Number");
+// }else{
+//     console.log("odd Number");
+    
+// }
+// <-------Function to Check Positive or Negative Number------>
+
+// function checkNumber(onenumber) {
+//     if(onenumber >= 0){
+//         console.log("Positive Number");
+//     }else{
+//         console.log("Negative Number");
+        
+//     }
+// }
+// checkNumber(8)
+
+// <-------Find the Largest of Two Numbers using if-else---------->
+
+// let num1 = 10;
+// let num2 = 20;
+
+// if(num1 > num2){
+//     console.log("Num1 is Larger");
+    
+// }else{
+//     console.log("Num2 is Larger");
+    
+// }
+// <------ Check if a Number is Positive, Negative, or Zero------->
+
+// let number = 4;
+
+// if(number > 0){
+//     console.log("Postive Number");
+// }else if(number < 0){
+//     console.log("Negative Number");   
+// }else{
+//     console.log("zero");    
+// }
+// <-------- Switch Statement for Days------>
+
+// let day = 4;
+
+// switch(day){
+//     case 1:
+//         console.log("monday");
+//         break;
+//     case 2:
+//         console.log("tuesday");
+//         break;
+//     case 3:
+//         console.log("wednesday");
+//         break;
+//     default:
+//         console.log("invalid day");
+// }
+
+// <-----------Loop Through an Array of Names-------->
+// let names= ["Adhithya","Nikhil","Nirajan","Dennies","Edwin"];
+// for(let i = 0; i < names.length; i++) {
+//     console.log(names[i]);  
+// }
+// <-------16: Use Array Methods (push and pop)----->
+// let names = ["Amal"];
+// names.push("adhithya");
+// names.pop();
+// console.log(names);
+// <-----Create a Function That Returns the Sum of Two Numbers--->
+
+// function sum(x, y){
+//     return x + y ;
+// }
+// console.log(sum(5,4));
+
+// <---------- Print Even Numbers from an Array using Loop and if-else--->
+
+// let num =["1","2","3","4","5","6","7","8","9","10"]
+// for(let i=0;i<num.length;i++){
+//     if(num[i] % 2 === 0){
+//         console.log(num[i] + "is Even Number");
+//     }else{
+//         console.log(num[i] + " is Odd Number");
+        
+//     }
+// }
+
+// <----------Function that Loops Through an Array--->
+
+// function checkEvenOdd(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//        if (arr[i] % 2 === 0){
+//         console.log(arr[i] + "Even");
+        
+//        }else{
+//         console.log(arr[i] + "odd");
+        
+//        }    
+//     }
+    
+// }
+// let num=[1,2,3,4,5,6,7];
+// checkEvenOdd(num); 
+
+// <-----------Return Only Even Numbers in a New Array----->
+
+// function getEvenNumber(arr) {
+//     let evenArr = [];
+//     for(let i = 0; i< arr.length; i++){
+//         if (arr[i] % 2 === 0) {
+//             evenArr.push(arr[i]);         
+//         }
+//     }
+//     return evenArr;
+// }
+// let numbers = [1,2,3,4,5,6];
+// console.log(getEvenNumber(numbers));
+
+// <------Find the Maximum Number in an Array using Function------------->
+
+// function findMax(arr) {
+//     let max = arr[0];
+//     for(let i=1; i < arr.length;i++) {
+//         if(arr[i] > max) {
+//             max = arr[i];
+//         }
+
+//     }
+//     return max;
+// }
+// let number = [3,5,2,3,6,8];
+// console.log(findMax(number));
+
+// <------Find Minimum Number in an Array--->
