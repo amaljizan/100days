@@ -935,3 +935,123 @@
 // console.log(findMax(number));
 
 // <------Find Minimum Number in an Array--->
+
+// function findMin(arr) {
+//     let min = arr[0];
+//     for(let i = 1 ;i < arr.length; i++){
+//         if(arr[i] < min){
+//             min =arr[i];
+//         }
+//     }
+//     return min;
+// }
+
+// let number = [3,5,2,9,8];
+// console.log(findMin(number));;
+
+// <------  Practice Slice and Splice----->
+
+// let numbers = ["1","2","3","4","5"]
+// let slicedNumbers = numbers.slice(1,3);
+
+// console.log(slicedNumbers);
+// console.log(numbers);
+
+// <------------Learn splice() Method------>
+
+// let numbers = ["1","2","3","4","5"];
+// numbers.splice(1,2,"10","20");
+// console.log(numbers);
+
+// <------(Choose: Functions, Loops, or Array Methods like map, filter?)------->
+
+// <-----------Practice map() Method---------->
+// let numbers = ["1","2","3","4","5"];
+
+// let doubled = numbers.map(function(num) {
+//     return num * 2;
+
+// })
+// console.log(doubled);
+// console.log(numbers);
+
+// <----------Use map() to Multiply Each Number by 3---------->
+
+// let numbers = [1,2,3,4,5];
+// let tripled = numbers.map(function(num) {
+//     return num * 3
+// });
+
+// console.log(tripled);
+
+// <-------- 25: Use filter() to Get Even Numbers------->
+
+// let numbers = [1,2,3,4,5];
+
+// let greaterThan = numbers.filter(function(num){
+//     return num >3
+// });
+// console.log(greaterThan);
+
+// <-----------Use map() and filter() Together----->
+
+// let numbers = [ 1,2,3,4,5];
+// let members = numbers.map(function(num){
+//     return num * 2;
+// });
+// let peoples = members.filter(function(num){
+//     return num > 5;
+// });
+// console.log(members);
+// console.log(peoples);
+
+// let numbers = [ 1,2,3,4,5];
+// let results = numbers
+// .map(function(num){
+//     return num * 2;
+// })
+// .filter(function(num){
+//     return num > 5;
+// });
+// console.log(results);
+
+// <-------Arrow Functions (Simple Modern Syntax)?----------->
+// <--------: Arrow Functions in JavaScript-------------->
+
+
+// let numbers = [1,2,3,4,5];
+// let tribled = numbers.map(num => num * 3);
+// console.log(tribled);
+
+// <----------- Practice Arrow Function with filter()------------->
+// let number = [1,2,3,4,5,6]
+// let doubled= number.filter(num => num % 2===0);
+// console.log(doubled);
+
+// <-------Chain map() and filter() using Arrow Functions----->
+
+// let numbers = [1,2,3,4,5];
+// let result= numbers
+// .map(num => num * 2)
+// .filter(num => num > 5);
+// console.log(result);
+
+// <------- Functions that Return Values — no printing, just returning---->
+
+// function multiply(a , b){
+//     return a * b;
+// }
+// let result = multiply(4, 6);
+// console.log(result);
+
+// <------What is an Object in JavaScript?-->
+
+let car = {
+    brand: "BMW",
+    model: "hlock",
+    year: 2022
+};
+
+console.log(car.brand);
+console.log(car.year);
+console.log(car.model);
