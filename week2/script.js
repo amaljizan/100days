@@ -1046,12 +1046,12 @@
 
 // <------What is an Object in JavaScript?-->
 
-let car = {
-    brand: "BMW",
-    model: "hlock",
-    year: 2022
-};
+// let car = {
+//     brand: "BMW",
+//     model: "hlock",
+//     year: 2022
+// };
 
-console.log(car.brand);
-console.log(car.year);
-console.log(car.model);
+// console.log(car.brand);
+// console.log(car.year);
+// console.log(car.model);
