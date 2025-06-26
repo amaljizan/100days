@@ -1055,3 +1055,140 @@
 // console.log(car.brand);
 // console.log(car.year);
 // console.log(car.model);
+
+// <----------map(), filter(), reduce() Chaining Practice----->
+
+// let prices = [ 50, 120, 80, 200, 30];
+
+// let finalTotal = prices
+
+// .map(price => price * 1.10)
+// .filter(price => price > 100)
+// .reduce((sum, price) => sum + price);
+
+// console.log(finalTotal);
+
+// <---------------Add a Method to an Object------>
+
+// let calculator = {
+//     a: 5,
+//     b: 3,
+//     add:function() {
+//         return this.a + this.b;
+//     }
+// };
+// console.log(calculator.add());
+
+// <--------Loop Through Object Properties----->
+
+// let book  = {
+//     title: "half a day",
+//     author: "Noufan faz",
+//     year: 2012
+// };
+// for(let key in book) {
+//     console.log(`${key}: ${book[key]}`);
+    
+// }
+// <-------Using this Inside a Method-->
+
+// let user={
+//     firstName: "noufan",
+//     lastName: "faz",
+//     getFullName: function(){
+//         return this.firstName + " " + this.lastName;
+//     }
+// };
+// console.log(user.getFullName());
+
+// <-----Array of Objects-->
+
+// let books =[
+//     {titile:"Banana Tree", Author: "Ruskin Bond", Year: 2003},
+//     {titile:"The Alchemist", Author: "Paulo Coelho", Year: 1988},
+//     {titile:"Rich Dad Poor Dad", Author: "Robert Kiyosaki", Year: 1997}
+// ];
+// for (let amal of books) {
+//     console.log(`Title: ${amal.titile}, Author: ${amal.Author}, Year: ${amal.Year}`);
+    
+// }
+
+// <-------Add a Method to Each Object in an Array----->
+
+// let  books = [
+//     {
+//         title: "Banana Tree",
+//         author: "Ruskin Bond",
+//         year: 2003,
+//         getSummary:function() {
+//             console.log(`${this.title} by ${this.author} was published in ${this.year}`);
+//         }
+//     },
+//     {
+//         title: "The Alchemist",
+//         author:"Paulo Coelho",
+//         year: 1988,
+//         getSummary:function() {
+//             console.log(`${this.title} by ${this.author} was published in ${this.year}`);
+//         }
+//     },
+//     {
+//         title: "Rich Dad Poor Dad",
+//         author:"Robert Kiyosaki",
+//         year:1997,
+//         getSummary:function() {
+//             console.log(`${this.title} by ${this.author} was published in ${this.year}`);
+//         }
+//     }
+// ];
+// for (let book of books) {
+//     book.getSummary();
+// }
+
+// <-------Factory Function------->
+
+
+let numbers = [1,2,3,4,5];
+
+let greater=Math.max(...numbers)
+console.log(greater);
+
+let num=4
+console.log(Math.pow(num,2))
+
+console.log(Math.sqrt(num,2))
+
+let greater1=Math.min(...numbers)
+console.log(greater1);
+
+console.log(Math.PI)
+
+let num1=4.3
+
+console.log(Math.floor(num1))
+console.log(Math.ceil(num1))
+console.log(Math.round(num1))
+
+console.log(Math.floor(Math.random()*6)+1)
+
+
+
+
+if(2>3){
+    console.log("greater")
+  
+}
+else if(6>){
+
+}
+else{
+    console.log("not greter")
+   console.log("amal")
+}
+
+4>3 ? console.log("greater"):  console.log("not greter")
+
+
+
+
+
