@@ -1148,47 +1148,78 @@
 // <-------Factory Function------->
 
 
-let numbers = [1,2,3,4,5];
+// <---math function--->
 
-let greater=Math.max(...numbers)
-console.log(greater);
+// let numbers = [1,2,3,4,5];
 
-let num=4
-console.log(Math.pow(num,2))
+// let greater=Math.max(...numbers)
+// console.log(greater);
 
-console.log(Math.sqrt(num,2))
+// let num=4
+// console.log(Math.pow(num,2))
 
-let greater1=Math.min(...numbers)
-console.log(greater1);
+// console.log(Math.sqrt(num,2))
 
-console.log(Math.PI)
+// let greater1=Math.min(...numbers)
+// console.log(greater1);
 
-let num1=4.3
+// console.log(Math.PI)
 
-console.log(Math.floor(num1))
-console.log(Math.ceil(num1))
-console.log(Math.round(num1))
+// let num1=4.3
 
-console.log(Math.floor(Math.random()*6)+1)
+// console.log(Math.floor(num1))
+// console.log(Math.ceil(num1))
+// console.log(Math.round(num1))
+
+// console.log(Math.floor(Math.random()*6)+1)
 
 
 
 
-if(2>3){
-    console.log("greater")
+// if(2>3){
+//     console.log("greater")
   
-}
-else if(6>){
+// }
+// else if(6>){
 
-}
-else{
-    console.log("not greter")
-   console.log("amal")
-}
+// }
+// else{
+//     console.log("not greter")
+//    console.log("amal")
+// }
 
-4>3 ? console.log("greater"):  console.log("not greter")
+// 4>3 ? console.log("greater"):  console.log("not greter")
 
+// <--------------Constructor Function-------------->
 
+// function book(title, author, year){
+//     this.title = title;
+//     this.author =author;
+//     this.year = year;
+//     this.getSummary = function(){
+//         return `${this.title} by ${this.author}was published in ${this.year}`
+//     };
+// }
+// let book1 = new book("half of a day","Noufan faz", 2012);
+// let book2 = new book("The Alchemist","paulo coelho",1988);
 
+// console.log(book2.getSummary());
 
+// <-----------Create a Constructor and Use Prototype----->
 
+// function Movie(title, director, releaseYear){
+//     this.title =title;
+//     this.director=director;
+//     this.releaseYear=releaseYear;
+//     this.getinfo= function(){
+//         return `${this.title} was directed by ${this.director} in ${this.releaseYear}`
+//     };
+// }
+// let movie1 = new Movie("minnal Murali", "basil joseph", 2022);
+// let movie2 = new Movie("lucifer", "prithiraj", 2020) 
+
+// console.log(movie1.getinfo());
+
+// <-----Filter Objects from an Array------->
+
+ds
