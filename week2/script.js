@@ -1222,4 +1222,13 @@
 
 // <-----Filter Objects from an Array------->
 
-ds
+
+
+
+multiplication(18,24)
+
+function multiplication(x,y){
+    console.log(x*y);
+    
+}
+
