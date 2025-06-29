@@ -1231,4 +1231,3 @@ function multiplication(x,y){
     console.log(x*y);
     
 }
-
