@@ -10,11 +10,13 @@
 // main2();
 // -----------------------------------
 
-console.log('Script1');
+// console.log('Script1');
 
-function addArray(arr) {
-    return arr.reduce((total, item) => total + item, 0);
-}
-export{
+// function addArray(arr) {
+//     return arr.reduce((total, item) => total + item, 0);
+// }
+// export{
     
-}
+// }
+
+uyrruuryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyihiupkpopopopokpokpokjjjhgjhgjgjgjjhjhjhjhgjhjgjhgjhjhgjhgjhgghjghghhjghjgjhggghghjggggjhgjhgggggggggghjghggjhghjghgggggggggggggjjhghgggggggggggggggjhhjhjhhjghjghhhjgjhgjhghhhhhghghhhhghjghjgjhgjhghgjhgjhghjjjjjjjjjjjjjjjjjjjjjjjjjjjghjgjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhghjgggjhgjhghgpkopkjlkljuytyutuytyutytuytyutuytyutyutyutuytytutuytuytyutytytyutuytyutyuuuuuuuuuuuuuuuutyutyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyytuytytyyyyyyyyyyyyyyyyyyyyyyyyyyuyuyuuysddsfsdfsdfsddssfdsfdsfsdfdsfsdfsdfdsfsdfsdfdsfsdfdsfsdfdsfdsdssddsdsfdfdsffffffffffffddfdfdffdfdffsdsdfdfdffeeereererereereerrrrerererereerererereryyyyqiiiiiiiiiiiioiiiiiiiiiiiiiiioioioioioiioioioioioioioioioioioioioioioioiooioioioiopopopopopopopopopopopopopopopopopopopopopopopopopopoiuoioioioioioioioioioioioioioioioioioioiieererereredddrerfsdsdsdfsdff
