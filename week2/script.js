@@ -1219,15 +1219,3 @@
 // let movie2 = new Movie("lucifer", "prithiraj", 2020) 
 
 // console.log(movie1.getinfo());
-
-// <-----Filter Objects from an Array------->
-
-
-
-
-multiplication(18,24)
-
-function multiplication(x,y){
-    console.log(x*y);
-    
-}
